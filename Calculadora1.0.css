@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.tela {
+    width: 500px;
+    height: 130px;
+    background-color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    border-radius: 20px;
+}
+
+.conta {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.calculadora {
+    width: 600px;
+    height: 600px;
+    background-color: lightgray;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+}
+
+.botao1 {
+    transform: translate(-300%, -150%);
+}
+
+.botao2 {
+    transform: translate(-180%, -150%);
+}
+
+.botao3 {
+    transform: translate(-60%, -150%);
+}
+
+.botao4 {
+    transform: translate(65%, -150%);
+}
+
+.botao5 {
+    transform: translate(190%, -150%);
+}
+
+.botao6 {
+    transform: translate(-300%, 0%);
+}
+
+.botao7 {
+    transform: translate(-180%, 0%);
+}
+
+.botao8 {
+    transform: translate(-60%, 0%);
+}
+
+.botao9 {
+    transform: translate(65%, 0%);
+}
+
+.botao0 {
+    transform: translate(190%, 0%);
+}
+
+.somar {
+    transform: translate(30%, 43%);
+    width: 160px;
+    height: 200px;
+}
+
+.subtrair {
+    transform: translate(-300%, 150%);
+}
+
+.dividir {
+    transform: translate(-180%, 150%);
+}
+
+.multiplicar {
+    transform: translate(-60%, 150%);
+}
+
+.resultado {
+    transform: translate(-90%, 290%);
+    width: 230px;
+    height: 70px;
+}
